@@ -21,16 +21,26 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'devise'
+gem 'simple_form'
+gem 'gravatar_image_tag', github: 'mdeering/gravatar_image_tag'
+gem 'sidekiq', '~> 5.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'capybara'
+  gem 'factory_bot_rails'
+  gem 'rspec-rails', '~> 5.0.0'
+  gem 'better_errors', '~> 2.4'
+  gem 'guard', '~> 2.14'
+  gem 'guard-livereload', '~> 2.5'
 end
 
 group :development do
@@ -42,6 +52,10 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+end
+
+group :test do
+  gem 'shoulda-matchers', '~> 5.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
