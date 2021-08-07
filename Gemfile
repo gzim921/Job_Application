@@ -29,6 +29,10 @@ gem 'sidekiq', '~> 5.0'
 # gem 'image_processing', '~> 1.2'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick', '~> 4.8'
+gem 'stripe', '~> 3.11'
+gem 'trix'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
