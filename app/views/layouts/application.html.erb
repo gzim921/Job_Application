@@ -48,10 +48,10 @@
             <% if user_signed_in? %>
 
               <div class="navbar-item has-dropdown is-hoverable">
-                <%= link_to 'Account', edit_user_registration_path, class: "navbar-link" %>
+                <p class="navbar-link">Account</p>
                 <div class="navbar-dropdown is-right">
-                  <%= link_to current_user.name, edit_user_registration_path, class:"navbar-item" %>
-                  <%= link_to "Log Out", destroy_user_session_path, method: :delete, class:"navbar-item" %>
+                  <%= link_to 'Edit Profile', edit_user_registration_path, class:"navbar-item" %>
+                  <%= link_to 'Log Out', destroy_user_session_path, method: :delete, class:"navbar-item" %>
                 </div>
               </div>
             <% else %>
