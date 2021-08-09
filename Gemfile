@@ -27,7 +27,7 @@ gem 'gravatar_image_tag', github: 'mdeering/gravatar_image_tag'
 gem 'sidekiq', '~> 5.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-gem 'bootstrap-sass', '~> 3.4.1'
+gem 'bulma-rails', '~> 0.9.1'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 4.8'
