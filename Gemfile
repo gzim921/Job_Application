@@ -33,6 +33,7 @@ gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 4.8'
 gem 'stripe', '~> 3.11'
 gem 'trix'
+gem "figaro"
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
