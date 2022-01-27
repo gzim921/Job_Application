@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'devise'
 gem 'simple_form'
 gem 'gravatar_image_tag', github: 'mdeering/gravatar_image_tag'
-gem 'sidekiq', '~> 5.0'
+gem 'sidekiq', '~> 6.4'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 gem 'bulma-rails', '~> 0.9.1'
